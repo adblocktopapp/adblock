@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Discover AdFilter apps: block ads, protect privacy, and enjoy a cleaner browsing experience on Android.">
-  <meta name="keywords" content="AdFilter, Android ad blocker, privacy, app, ads free">
+  <meta name="keywords" content="AdBlock, AdFilter, Android ad blocker, privacy, app, ads free, DNS">
   <meta name="robots" content="index, follow">
   <title>AdFilter Apps - Block Ads & Protect Privacy</title>
   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/4c/No-ads.svg">
@@ -23,11 +23,17 @@
     .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
     .app-card { background: #1E1E1E; border-radius: 16px; padding: 20px; text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
     .app-card:hover { transform: translateY(-6px); box-shadow: 0 8px 20px rgba(255,165,0,0.3); }
-    .app-card img { width: 80px; height: 80px; margin-bottom: 15px; }
+    .app-card img { width: 80px; height: 80px; margin-bottom: 15px; border-radius: 12px; object-fit: cover; }
     .app-card h2 { font-size: 1.4rem; margin-bottom: 10px; color: #FFA726; }
     .app-card p { font-size: 0.95rem; margin-bottom: 20px; color: #ccc; }
     .app-card a { display: inline-block; padding: 10px 20px; border-radius: 12px; background: #FFA726; color: #121212; font-weight: 700; transition: background 0.2s; }
     .app-card a:hover { background: #FF7043; }
+
+    .developer { margin-top: 60px; text-align: center; }
+    .developer img { width: 120px; height: 120px; border-radius: 50%; margin-bottom: 15px; object-fit: cover; }
+    .developer h3 { font-size: 1.5rem; margin-bottom: 5px; color: #FFA726; }
+    .developer p { color: #ccc; font-size: 0.95rem; }
+
     footer { text-align: center; padding: 40px 20px; font-size: 0.85rem; color: #888; }
     @media (max-width: 500px) { header h1 { font-size: 2rem; } }
   </style>
@@ -43,27 +49,34 @@
   <div class="apps">
 
     <div class="app-card">
-      <img src="https://play-lh.googleusercontent.com/Yo5nxqE2yC9_3YxFQZ-7B7P4rBhszK2oJwqWfV5PiIdQhXx3iZq7cJ-8qfUuKTL5E1=s180-rw" alt="AdFilter Plus">
+      <img src="https://i.ibb.co/YpZ4M5J/adfilter-plus.png" alt="AdFilter Plus">
       <h2>AdFilter Plus</h2>
-      <p>Block ads in browsers and apps with extra protection for a smooth Android experience.</p>
+      <p>Block ads in browsers and apps with advanced protection for a smoother Android experience.</p>
       <a href="https://play.google.com/store/apps/details?id=com.adfilter.plus" target="_blank" rel="noopener">View on Play Store</a>
     </div>
 
     <div class="app-card">
-      <img src="https://play-lh.googleusercontent.com/odYcY2NLRPXq7GRl6TP2hNQXyTn7_e3EeCJ8tJPhIQ-xuYIUpvC0ihTSSKx6qQmUjbI=s180-rw" alt="AdFilter All">
+      <img src="https://i.ibb.co/2N7Yh9r/adfilter-all.png" alt="AdFilter All">
       <h2>AdFilter All</h2>
-      <p>All-in-one ad blocker with VPN-like DNS filtering and privacy protection on Android.</p>
+      <p>Comprehensive ad-blocker with DNS filtering and privacy protection to secure your Android device.</p>
       <a href="https://play.google.com/store/apps/details?id=com.adfilter.all" target="_blank" rel="noopener">View on Play Store</a>
     </div>
 
     <div class="app-card">
-      <img src="https://play-lh.googleusercontent.com/v9i3GpB1uX7TngpRJn5bW1HxYKX0-wuZ9yHqlQO0Eazv4gY4I-hv-kVYw_DzJrmfM7I=s180-rw" alt="AdFilter Pro">
+      <img src="https://i.ibb.co/fD3pB0S/adfilter-pro.png" alt="AdFilter Pro">
       <h2>AdFilter Pro</h2>
-      <p>Premium ad-blocking experience with enhanced features and full YouTube video ad protection.</p>
+      <p>Premium ad-blocking features with enhanced protection and advanced privacy tools.</p>
       <a href="https://play.google.com/store/apps/details?id=com.adfilter.pro" target="_blank" rel="noopener">View on Play Store</a>
     </div>
 
   </div>
+
+  <div class="developer">
+    <img src="https://i.pravatar.cc/150?img=3" alt="Developer Photo">
+    <h3>John Doe</h3>
+    <p>Lead developer of AdFilter Apps. Passionate about privacy, security, and creating a cleaner digital experience for Android users.</p>
+  </div>
+
 </div>
 
 <footer>
