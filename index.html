@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,6 +139,13 @@
       background: #ff7043;
     }
 
+    .app-card .store-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
     .support-section {
       margin-top: 60px;
       background: #1e1e1e;
@@ -186,7 +194,7 @@
 
     <p>
       Block ads, protect your privacy, and enjoy a faster browsing experience
-      on your devices.
+      on your devices!
     </p>
   </header>
 
@@ -205,21 +213,23 @@
           secure your device.
         </p>
 
-        <a
-          class="button"
-          href="https://play.google.com/store/apps/details?id=com.adfilter.all"
-          target="_blank"
-        >
-          View on Play Store
-        </a>
+        <div class="store-buttons">
+          <a
+            class="button"
+            href="https://play.google.com/store/apps/details?id=com.adfilter.all"
+            target="_blank"
+          >
+            View on Play Store
+          </a>
 
-<a
-  class="button"
-  href="https://apps.apple.com/ua/app/adfilter-all-block-ads/id6768249207"
-  target="_blank"
->
-  View on App Store
-</a>
+          <a
+            class="button"
+            href="https://apps.apple.com/ua/app/adfilter-all-block-ads/id6768249207"
+            target="_blank"
+          >
+            View on App Store
+          </a>
+        </div>
       </div>
 
       <div class="app-card">
